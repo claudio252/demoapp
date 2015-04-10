@@ -1,0 +1,16 @@
+<nav class="navbar navbar-static-top" ng-controller="NavbarCtrl">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+      <ul class="nav navbar-nav">
+        <li><a ui-sref="home" ui-sref-active="active">Home</a></li>
+        <li><a ui-sref="about" ui-sref-active="active">About</a></li>
+        <li><a ui-sref="contact" ui-sref-active="active">Contact</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>Current date: {{ date | date:'yyyy-MM-dd' }}</li>
+      </ul>
+    </div>
+  </div>
+</nav>
